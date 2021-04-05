@@ -8,6 +8,9 @@ driver.get('https://www.w3schools.com/') #it opens respective webpage in chrome 
 
 print(driver.title) #it fetches title of the page in respective webpage
 print(driver.current_url) #it gives url
-driver.find_element_by_xpath('//*[@id="main"]/div[1]/div[1]/a[1]').click() #it clicks on button and opens another page through X path
+driver.maximize_window()
+driver.find_element_by_xpath('//*[@id="main"]/div[1]/div[1]/a[1]').click()  #it clicks on button and opens another page through X path
 time.sleep(5)
 driver.close()# close all webpages and browser
+print("good night")
+print("hi good morning")
