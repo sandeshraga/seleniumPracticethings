@@ -14,3 +14,4 @@ time.sleep(5)
 driver.close()# close all webpages and browser
 print("good night")
 print("hi good morning")
+print("hi good Afternoon")
